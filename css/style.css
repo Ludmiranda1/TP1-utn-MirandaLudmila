@@ -23,13 +23,3 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
-
-.formaciones {
-  background-color: rgb(255, 242, 249);
-}
-
-.cont-formaciones {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
