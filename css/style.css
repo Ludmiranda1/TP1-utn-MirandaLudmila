@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", serif;
+}
+
+.img-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.biografia {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/background.jpg);
+}
+
+.cont-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.formaciones {
+  background-color: rgb(255, 242, 249);
+}
+
+.cont-formaciones {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
